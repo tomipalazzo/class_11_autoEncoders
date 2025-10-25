@@ -1,0 +1,17 @@
+[project]
+name = "class-11-autoencoders"
+version = "0.1.0"
+description = "Here is all the necessary packages to run the notebooks"
+authors = [
+    {name = "tomipalazzo",email = "45265506+tomipalazzo@users.noreply.github.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
