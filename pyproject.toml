@@ -1,16 +1,23 @@
+[tool.poetry]
+package-mode = false
+
 [project]
 name = "class-11-autoencoders"
 version = "0.1.0"
 description = "Here is all the necessary packages to run the notebooks"
 authors = [
-    {name = "tomipalazzo",email = "45265506+tomipalazzo@users.noreply.github.com"}
+    { name = "tomipalazzo", email = "45265506+tomipalazzo@users.noreply.github.com" },
 ]
-license = {text = "MIT"}
-readme = "README.md"
-requires-python = ">=3.12"
+license = { text = "MIT" }
+requires-python = ">=3.12,<3.15"
 dependencies = [
+    "jupyter>=1.1.1,<2.0.0",
+    "ipykernel>=7.0.1,<8.0.0",
+    "torch",
+    "torchvision",
+    "matplotlib (>=3.10.7,<4.0.0)",
+    "scikit-learn (>=1.7.2,<2.0.0)",
 ]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
